@@ -5,12 +5,11 @@
 
     <layer-list>
 
-<!--
-       <item>
+       <!--<item>
            <shape
                android:shape="rectangle"
                android:useLevel="true">
-               <stroke android:color="@color/black" android:width="3dp" />
+               <stroke android:color="#1f1f1f" android:width="7dp" />
                <corners android:radius="40dp"/>
            </shape>
        </item>-->
@@ -22,15 +21,18 @@
                 <corners android:radius="40dp" />
                 <gradient
                     android:endColor="#0000ffff"
-                    android:startColor="#006386"
-                    android:centerColor="#006386"
+                    android:startColor="#FF0091BD"
+                    android:centerColor="#FF0091BD"
                     android:type="sweep"
+                    android:gradientRadius="200dp"
                     android:useLevel="true" />
+
                 <size
                     android:width="170dp"
                     android:height="170dp" />
             </shape>
         </item>
+
         <item
             android:bottom="7dp"
             android:left="7dp"
@@ -53,7 +55,6 @@
                 android:shape="ring"
                 android:thickness="8dp"
                 android:useLevel="true">
-                <solid android:color="@color/black" />
 
                 <gradient
                     android:angle="0"

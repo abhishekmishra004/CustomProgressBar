@@ -48,13 +48,11 @@ public class MainActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                // set the limitations for the numeric
-                // text under the progress bar
-                if (i <= 70) {
+                if (i <= 90) {
                     progressText.setText("" + i);
                     progressBar.setProgress(i);
                     i++;
-                    handler.postDelayed(this, 200);
+                    handler.postDelayed(this, 150);
                 } else {
                     handler.removeCallbacks(this);
                 }
